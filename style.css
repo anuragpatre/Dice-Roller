@@ -1,0 +1,30 @@
+body {
+    background: rgb(207, 224, 220);
+    background: linear-gradient(90deg, rgb(159, 248, 146) 0%, rgb(164, 224, 178) 30%, rgb(128, 194, 162) 50%);
+    min-height: 100vh;
+}
+
+.name {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dice {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 30px auto;
+}
+
+.btn {
+    width: 180px;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(225deg, #722f55 50%, #784BA0 30%, #29343c 100%);
+
+    color: rgb(223, 200, 200);
+    cursor: pointer;
+}
